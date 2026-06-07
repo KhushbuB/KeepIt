@@ -1,0 +1,66 @@
+{
+  "collections": [
+    {
+      "id": 1,
+      "name": "Austin Photographs",
+      "description": "Historical and contemporary photographs of Austin, Texas.",
+      "location": "Server A, Folder /austin-photos/",
+      "itemCount": 18
+    },
+    {
+      "id": 2,
+      "name": "Austin Photographs",
+      "description": "Historical maps of Austin and surrounding areas.",
+      "location": "Server A, Folder /austin-maps/",
+      "itemCount": 12
+    },
+    {
+      "id": 3,
+      "name": "Texas Newspapers",
+      "description": "Digitized issues of historical Texas newspapers.",
+      "location": "Server B, Folder /tx-newspapers/",
+      "itemCount": 34
+    },
+    {
+      "id": 4,
+      "name": "Texas Oral Histories",
+      "description": "Audio recordings of interviews with Texas residents.",
+      "location": "Server C, Folder /tx-oral-histories/",
+      "itemCount": 22
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "title": "Photo of Congress Avenue, 1920",
+      "creationDate": "1920",
+      "accessionDate": "2019-05-14",
+      "format": "TIFF",
+      "collection": "Austin Photographs"
+    },
+    {
+      "id": 2,
+      "title": "Map of Austin, 1885",
+      "creationDate": "1885",
+      "accessionDate": "2020-02-03",
+      "format": "PDF",
+      "collection": "Austin Photographs"
+    },
+    {
+      "id": 3,
+      "title": "Austin American-Statesman, June 1936",
+      "creationDate": "1936-06",
+      "accessionDate": "2021-09-15",
+      "format": "PDF",
+      "collection": "Texas Newspapers"
+    },
+    {
+      "id": 4,
+      "title": "Oral history about Austin music scene",
+      "creationDate": "2005-04-12",
+      "accessionDate": "2018-08-22",
+      "format": "MP3",
+      "collection": "Texas Oral Histories"
+    }
+  ]
+}
