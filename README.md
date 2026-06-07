@@ -22,8 +22,8 @@ This documentation is a portfolio project created as part of an API Documentatio
 ## Tools & Stack
 
 - Markdown
-- Git/GitHub
-- [Add your doc tool here, e.g., Docusaurus, MkDocs, Swagger UI]
+- GitHub
+- VS Code
 
 ## Status
 
