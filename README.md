@@ -6,7 +6,7 @@ KeepIT uses a simple REST API and JSON data format to help teams manage digital 
 
 ## Live Document Link
 
-KeepIt Service Documentation - coming soon
+[KeepIt Service Documentation](https://khushbub.github.io/KeepIt/)
 
 ## About This Project
 
