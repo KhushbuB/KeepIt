@@ -3,6 +3,7 @@
 # vale off
 # tags used by just-the-docs theme
 layout: default
+title: Get collections by ID
 parent: Resources
 grand_parent: KeepIT API
 nav_order: 2
