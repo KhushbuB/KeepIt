@@ -4,6 +4,7 @@
 # tags used by just-the-docs theme
 layout: default
 parent: Resources
+grand_parent: KeepIT API
 nav_order: 2
 # tags used by AI files
 description: GET all `collections` resources from the service

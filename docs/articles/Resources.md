@@ -3,7 +3,9 @@
 # vale off
 # tags used by just-the-docs theme
 layout: default
-nav_order: 1
+title: Resources
+parent: KeepIT API
+nav_order: 2
 has_children: true
 has_toc: true
 # tags used by AI files
