@@ -60,6 +60,9 @@ Use this API to manage your digital archive - organize collections, add items, a
 
 * [Get all collections](get-all-collection.md)
 * [Get collections by ID](get-collection-by-id.md)
+* [Create a collection](create-a-collection.md)
+* [Get all items](get-all-items.md)
+* [Get items by ID](get-items-by-id.md)
 
 ## References
 
