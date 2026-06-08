@@ -1,3 +1,48 @@
-# KeepIt service API
+# KeepIT API
 
-This is a placeholder for KeepIt service API documentation home page.
+## Archive it. Find it. Keep it.
+
+Welcome to the KeepIT API.
+
+Use this API to manage your digital archive - organize collections, add items, and retrieve records with simple, lightweight REST endpoints.
+
+## What you can do
+
+- Create and browse archive collections
+- Add items to a collection
+- Retrieve a single collection or item by ID
+
+## Getting started
+
+1. Start the KeepIT json server
+2. Send requests to `http://localhost:3000`
+3. Use curl, Postman, or any API client to interact with the API
+
+## API endpoints
+
+### Collections
+
+- Get all collections — `GET /collections`
+- Get a collection by ID — `GET /collections/{id}`
+- Create a collection — `POST /collections`
+
+### Items
+
+- Get all items — `GET /items`
+- Get an item by ID — `GET /items/{id}`
+- Create an item — `POST /items`
+
+## Learn more
+
+- [Collections resource](#)
+
+## References
+
+- [To-Do API Service](https://uwc2-apidoc.github.io/to-do-service-sp26/)
+
+## Contact us
+
+Have questions, feedback, or found an issue?
+
+- GitHub: [KeepIT Repository](https://github.com/KhushbuB/KeepIt)
+- Doc site: [khushbub.github.io/KeepIt](https://khushbub.github.io/KeepIt/)
