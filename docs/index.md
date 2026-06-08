@@ -42,6 +42,8 @@ Use this API to manage your digital archive - organize collections, add items, a
 2. Send requests to `http://localhost:3000`
 3. Use curl, Postman, or any API client to interact with the API
 
+See [prerequisites](Prerequisites.md) to test your setup.
+
 ## API endpoints
 
 ### Collections
