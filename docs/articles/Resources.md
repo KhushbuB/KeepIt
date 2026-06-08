@@ -34,6 +34,3 @@ last_updated: "2026-03-01"
 # Resources
 
 These resource reference articles are available to help you start using the **Keepit Service API**.
-
-* [Get all collections](get-all-collection.md)
-* [Get collections by ID](get-collection-by-id.md)
