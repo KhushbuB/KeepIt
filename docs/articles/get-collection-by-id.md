@@ -7,7 +7,7 @@ parent: Resources
 grand_parent: KeepIT API
 nav_order: 2
 # tags used by AI files
-description: GET all `collections` resources from the service
+description: GET a `collections` resource by ID from the service
 topic_type: reference
 ai_relevance: high
 importance: 7
