@@ -5,7 +5,7 @@
 layout: default
 nav_order: 1
 has_children: true
-has_toc: false
+has_toc: true
 # tags used by AI files
 description: Lists the reference articles available in the documentation
 topic_type: overview
@@ -18,7 +18,7 @@ importance: 8
 prerequisites: []
 related_pages: 
     - /get-all-collection
-    - /get-all-collection-by-id
+    - /get-collection-by-id
 examples: []
 api_endpoints: []
 version: "v1.0"

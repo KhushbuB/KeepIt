@@ -74,7 +74,7 @@ curl http://localhost:3000/collections/4
     "location": "Server C, Folder /tx-oral-histories/",
     "itemCount": 22
   }
-]%   
+]   
 ```
 
 ## Response status
