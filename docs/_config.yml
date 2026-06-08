@@ -1,2 +1,7 @@
-title: To-Do service API
+title: KeepIT API
+description: Digital archive manager
 remote_theme: just-the-docs/just-the-docs
+
+# Required for just-the-docs nav to work
+url: "https://khushbub.github.io"
+baseurl: "/KeepIt"
