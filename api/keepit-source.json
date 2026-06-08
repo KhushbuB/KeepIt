@@ -27,6 +27,13 @@
       "description": "Audio recordings of interviews with Texas residents.",
       "location": "Server C, Folder /tx-oral-histories/",
       "itemCount": 22
+    },
+    {
+      "name": "Van Gogh Photographs",
+      "description": "Works of Vincent van Gogh in the Museum Square in Amsterdam.",
+      "location": "Server K, Folder /VanGogh/",
+      "itemCount": 3,
+      "id": 5
     }
   ],
   "items": [
@@ -61,6 +68,14 @@
       "accessionDate": "2018-08-22",
       "format": "MP3",
       "collection": "Texas Oral Histories"
+    },
+    {
+      "title": "Photo of The Starry Night",
+      "creationDate": "1996-09-23",
+      "accessionDate": "2026-06-08",
+      "format": "JPG",
+      "collection": "Van Gogh Photographs",
+      "id": 5
     }
   ]
 }
