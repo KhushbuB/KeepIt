@@ -5,3 +5,6 @@ remote_theme: just-the-docs/just-the-docs
 # Required for just-the-docs nav to work
 url: "https://khushbub.github.io"
 baseurl: "/KeepIt"
+
+# Keep all nav sections expanded at all times
+nav_expand_all: true
