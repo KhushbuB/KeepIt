@@ -58,11 +58,17 @@ Use this API to manage your digital archive - organize collections, add items, a
 
 ## Learn more
 
+### Reference topics
+
 * [Get all collections](articles/get-all-collection.md)
 * [Get collections by ID](articles/get-collection-by-id.md)
-* [Create a collection](articles/create-a-collection.md)
 * [Get all items](articles/get-all-items.md)
 * [Get items by ID](articles/get-items-by-id.md)
+
+### Tutorial topics
+
+* [Create a collection](articles/create-a-collection.md)
+* [Create an item](articles/create-an-item.md)
 
 ## References
 
