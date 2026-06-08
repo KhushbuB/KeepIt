@@ -1,3 +1,27 @@
+---
+# markdownlint-disable
+# vale off
+# tags used by just-the-docs theme
+layout: default
+title: KeepIT API
+nav_order: 1
+has_children: true
+has_toc: true
+# tags used by AI files
+description: documentation landing page
+topic_type: overview
+ai_relevance: high
+importance: 8
+related_pages: 
+    - /Resources
+version: "v1.0"
+last_updated: "2026-03-01"
+# vale  on
+# markdownlint-enable
+---
+ 
+ <!-- vale off -->
+
 # KeepIT API
 
 ## Archive it. Find it. Keep it.
@@ -22,19 +46,20 @@ Use this API to manage your digital archive - organize collections, add items, a
 
 ### Collections
 
-- Get all collections — `GET /collections`
-- Get a collection by ID — `GET /collections/{id}`
-- Create a collection — `POST /collections`
+- Get all collections - `GET /collections`
+- Get collections by ID - `GET /collections/{id}`
+- Create a collection - `POST /collections`
 
 ### Items
 
-- Get all items — `GET /items`
-- Get an item by ID — `GET /items/{id}`
-- Create an item — `POST /items`
+- Get all items - `GET /items`
+- Get an item by ID - `GET /items/{id}`
+- Create an item - `POST /items`
 
 ## Learn more
 
-- [Collections resource](#)
+* [Get all collections](get-all-collection.md)
+* [Get collections by ID](get-collection-by-id.md)
 
 ## References
 
