@@ -5,7 +5,7 @@
 layout: default
 title: Resources
 parent: KeepIT API
-nav_order: 2
+nav_order: 3
 has_children: true
 has_toc: true
 # tags used by AI files
