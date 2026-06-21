@@ -23,7 +23,7 @@ last_updated: "2026-03-01"
 
 # Get items by ID
 
-Returns a archived item by ID with the service.
+Returns an archived item by ID with the service.
 
 ## Endpoint
 
