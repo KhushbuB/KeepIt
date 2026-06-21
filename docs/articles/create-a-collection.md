@@ -14,38 +14,39 @@ ai_relevance: high
 importance: 6
 api_endpoints: /collections
 version: "v1.0"
-last_updated: "2026-03-01"
+last_updated: "2026-06-21"
 # vale  on
 # markdownlint-enable
 ---
 
 # Create a collection
 
-In this tutorial, you learn the operations to call to add a new collection.
+A museum archivist wants to organize Vincent van Gogh's photographs stored on a server. Before adding individual photographs as items, the archivist needs to create a collection to group them together.
+
+In this tutorial, you create a `Van Gogh Photographs` collection using the KeepIT API.
 
 Expect this tutorial to take about 15 minutes to complete.
 
-## Create a new collection using Postman
+## Before you begin
 
-Creating a new collection to the service requires you to use `POST` method to store the details of the new collection resource in the service.
+Make sure your local KeepIT service is running. If it is not, start it with this command:
 
-To add a new collection:
+```shell
+cd <your-github-workspace>/Keepit/api
+json-server -w Keepit-source.json
+```
 
-1. Make sure your local service is running, or start it by using this command, if it's not.
+## Create the Van Gogh Photographs collection using Postman
 
-    ```shell
-    cd <your-github-workspace>/Keepit/api
-    json-server -w Keepit-source.json
-    ```
+To create a new collection:
 
 1. Open the Postman app on your desktop.
-1. In the Postman app, create a new request with these values:
-    * **METHOD**: POST
+1. Create a new request with these values:
+    * **METHOD**: `POST`
     * **URL**: `{base_url}/collections`
     * **Headers**:
         * `Content-Type: application/json`
     * **Request body**:
-        You can change the values of each property as you'd like.
 
         ```json
         {
@@ -56,10 +57,9 @@ To add a new collection:
         }
         ```
 
-1. In the Postman app, choose **Send** to make the request.
-1. Watch for the response body, which should look something like this.
-    Note that the names should be the same as you used in
-    your **Request body** and the response should include the new `id`.
+1. Choose **Send**.
+
+1. Confirm the response body matches the request body and includes a new `id`.
 
     ```json
     {
@@ -70,3 +70,9 @@ To add a new collection:
         "id": 5
     }
     ```
+
+The `id` value confirms the collection is created and stored in the service. You can now add individual photographs to this collection as items.
+
+## Next steps
+
+- [Create an item](create-an-item.md) to add a Van Gogh photograph to this collection.
